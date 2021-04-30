@@ -1,0 +1,65 @@
+#contanair{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 10px;
+}
+
+
+
+.food{
+    border: 5px solid salmon;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+    
+}
+.foodName{
+    color:tomato;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+    
+}
+.ingredent{
+    color: slateblue;
+    text-align: center;
+    font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+#contanair img{
+    width: 100%;
+    /* margin-left: 40px; */
+    
+}
+
+#foodDetails{
+    margin: 100px auto;
+    width: 250px;
+    border: 10px solid salmon;
+    padding: 10px;
+    display: none;
+    border-radius: 10px;
+}
+
+.search{
+    width: 400px;
+    margin: 50px auto;
+}
+.search input{
+    width: 250px;
+}
+
+
+
+#contanair a{
+    text-decoration: none;
+}
+
+
+.notFoundmsg{
+    text-align: center;
+    color: green;
+}
